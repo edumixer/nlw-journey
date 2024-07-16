@@ -10,6 +10,7 @@ type InputProps = {
   children: ReactNode,
   variant?: Variants
 }
+
 function Input({ children, variant = "primary" }: InputProps) {
   return (
     <View 
